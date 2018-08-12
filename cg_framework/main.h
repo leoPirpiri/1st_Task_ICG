@@ -66,7 +66,7 @@ void InitOpenGL(int *argc, char **argv)
 	glutInit(argc,argv);
 	glutInitDisplayMode(GLUT_RGBA | GLUT_DEPTH | GLUT_DOUBLE);
 	glutInitWindowSize(IMAGE_WIDTH, IMAGE_HEIGHT);
-	glutInitWindowPosition(100,100);
+	glutInitWindowPosition(200,100);
 	glutCreateWindow("My OpenGL");
 
 	// Ajusta a projeção ortográfica.
